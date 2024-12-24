@@ -6,9 +6,10 @@
   "exeUeCoolTime": 60,
   "idleReleaseTime": 120,
   "preloadReleaseTime": 15000,
-  "mouseReleaseTime": 0,
+  "mouseReleaseTime": 180,
   "SignalIp": "127.0.0.1",
   "globlesetting": {
+    "WebRTCMaxBitrate": 25,
     "WebRTCFps": 30,
     "ResX": 1920,
     "ResY": 1080,
@@ -32,15 +33,7 @@
       "name": "test",
       "path": "D:\\UEProject\\ue51\\Windows\\ue51.exe",
       "urlprefix": "hedongzai",
-      "gpumemory": 9,
-      "preload": false,
-      "param": ""
-    },
-    {
-      "name": "test",
-      "path": "D:\\UEProject\\ue51\\Windows\\ue51.exe",
-      "urlprefix": "hensan",
-      "gpumemory": 8,
+      "gpumemory": 4,
       "preload": false,
       "param": ""
     }
