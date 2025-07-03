@@ -449,7 +449,7 @@ class PeerStream extends HTMLVideoElement {
 		this.tabIndex = 0; // easy to focus..
 		// this.autofocus = true;
 		this.playsInline = true;
-		this.disablepictureinpicture = true;
+		this.disablePictureInPicture = true;
 
 		// Recently many browsers can only autoplay the videos with sound off
 		this.muted = true;
